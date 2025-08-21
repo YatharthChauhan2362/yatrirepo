@@ -3,6 +3,7 @@
 A comprehensive step-by-step guide demonstrating how to create a GitHub repository and commit changes, documented during live execution.
 
 ## Table of Contents
+
 1. [Getting Started](#getting-started)
 2. [Creating a New Repository](#creating-a-new-repository)
 3. [Repository Configuration](#repository-configuration)
@@ -13,110 +14,118 @@ A comprehensive step-by-step guide demonstrating how to create a GitHub reposito
 ## Getting Started
 
 ### Prerequisites
-- A GitHub account
-- Basic understanding of version control concepts
-- Web browser with internet connection
+
+• A GitHub account
+• Basic understanding of version control concepts
+• Web browser with internet connection
 
 ### Accessing GitHub
+
 1. Open your web browser
-2. Navigate to [github.com](https://github.com)
+2. Navigate to [github.com](https://github.com/)
 3. Sign in to your GitHub account
 4. You'll land on your GitHub dashboard/profile page
 
 ## Creating a New Repository
 
 ### Step 1: Navigate to Repository Creation
-1. **Locate the "Create" button**: On the top navigation bar, find the "+" icon or "Create something new" button
-2. **Click on the dropdown**: This will reveal several options
-3. **Select "New repository"**: This option will take you to the repository creation form
+
+1. Locate the "Create" button: On the top navigation bar, find the "+" icon or "Create something new" button
+2. Click on the dropdown: This will reveal several options
+3. Select "New repository": This option will take you to the repository creation form
 
 ### Step 2: Repository Setup Form
+
 The repository creation form contains several important fields:
 
 #### Required Fields
-- **Owner**: This dropdown shows who will own the repository (your username or organization)
-- **Repository name**: Choose a descriptive, memorable name
-  - Must be unique within your account
-  - Use lowercase letters, numbers, hyphens, and underscores
-  - Avoid spaces and special characters
+
+• Owner: This dropdown shows who will own the repository (your username or organization)
+• Repository name: Choose a descriptive, memorable name
+  ◦ Must be unique within your account
+  ◦ Use lowercase letters, numbers, hyphens, and underscores
+  ◦ Avoid spaces and special characters
 
 #### Repository Name Best Practices
-- Keep it short and descriptive
-- Use kebab-case (hyphens) or snake_case (underscores)
-- Examples: `my-awesome-project`, `data_analysis_tool`
+
+• Keep it short and descriptive
+• Use kebab-case (hyphens) or snake_case (underscores)
+• Examples: my-awesome-project, data_analysis_tool
 
 ## Repository Configuration
 
 ### Visibility Settings
-**Public Repositories**:
-- Visible to everyone on the internet
-- Anyone can view, clone, and fork
-- Good for open-source projects
-- Free for unlimited public repositories
 
-**Private Repositories**:
-- Only visible to you and collaborators you invite
-- Requires paid plan for unlimited private repos (or limited free)
-- Good for proprietary/personal projects
+Public Repositories:
+• Visible to everyone on the internet
+• Anyone can view, clone, and fork
+• Good for open-source projects
+• Free for unlimited public repositories
+
+Private Repositories:
+• Only visible to you and collaborators you invite
+• Requires paid plan for unlimited private repos (or limited free)
+• Good for proprietary/personal projects
 
 ### Initial Files Configuration
 
 #### README File
-- **Purpose**: Provides overview and documentation for your project
-- **Recommendation**: Always add a README.md file
-- **Content**: Project description, installation instructions, usage examples
-- **Format**: Markdown (.md) for rich formatting
+• Purpose: Provides overview and documentation for your project
+• Recommendation: Always add a README.md file
+• Content: Project description, installation instructions, usage examples
+• Format: Markdown (.md) for rich formatting
 
 #### .gitignore File
-- **Purpose**: Tells Git which files/directories to ignore
-- **Examples**: Log files, temporary files, sensitive configurations
-- **Templates**: GitHub provides templates for different programming languages
+• Purpose: Tells Git which files/directories to ignore
+• Examples: Log files, temporary files, sensitive configurations
+• Templates: GitHub provides templates for different programming languages
 
 #### License
-- **Purpose**: Defines how others can use your code
-- **Popular options**: MIT, Apache 2.0, GPL v3
-- **Recommendation**: Choose appropriate license for your project type
+• Purpose: Defines how others can use your code
+• Popular options: MIT, Apache 2.0, GPL v3
+• Recommendation: Choose appropriate license for your project type
 
 ### Repository Creation Process
-1. **Fill in repository name**: Enter your chosen repository name
-2. **Add description (optional)**: Brief explanation of the project
-3. **Choose visibility**: Select Public or Private
-4. **Initialize options**: 
-   - ✅ Add README file (recommended)
-   - ✅ Add .gitignore (if applicable)
-   - ✅ Add license (if desired)
-5. **Click "Create repository"**: GitHub will process the creation
+
+1. Fill in repository name: Enter your chosen repository name
+2. Add description (optional): Brief explanation of the project
+3. Choose visibility: Select Public or Private
+4. Initialize options:
+   ◦ ✅ Add README file (recommended)
+   ◦ ✅ Add .gitignore (if applicable)
+   ◦ ✅ Add license (if desired)
+5. Click "Create repository": GitHub will process the creation
 
 ## Adding and Editing Files
 
 ### Method 1: Web Interface (GitHub.com)
 
 #### Creating New Files
-1. **Navigate to your repository**: Go to the main repository page
-2. **Click "Add file"**: Located near the green "Code" button
-3. **Select "Create new file"**: Opens the file creation interface
-4. **Enter filename**: Include proper file extension (.md, .txt, .js, etc.)
-5. **Add content**: Use the text editor to write your content
+1. Navigate to your repository: Go to the main repository page
+2. Click "Add file": Located near the green "Code" button
+3. Select "Create new file": Opens the file creation interface
+4. Enter filename: Include proper file extension (.md, .txt, .js, etc.)
+5. Add content: Use the text editor to write your content
 
 #### Editing Existing Files
-1. **Navigate to the file**: Click on the filename in the repository browser
-2. **Click the pencil icon**: "Edit this file" button
-3. **Make changes**: Edit content in the text editor
-4. **Preview changes**: Use the "Preview" tab to see formatted output
+1. Navigate to the file: Click on the filename in the repository browser
+2. Click the pencil icon: "Edit this file" button
+3. Make changes: Edit content in the text editor
+4. Preview changes: Use the "Preview" tab to see formatted output
 
 ### Method 2: File Upload
-1. **Click "Add file"** → **"Upload files"**
-2. **Drag and drop files** or click "choose your files"
-3. **Wait for upload completion**
-4. **Add commit message**
-5. **Commit changes**
+1. Click "Add file" → "Upload files"
+2. Drag and drop files or click "choose your files"
+3. Wait for upload completion
+4. Add commit message
+5. Commit changes
 
 ## Committing Changes
 
 ### Understanding Commits
-- **Definition**: A snapshot of your project at a specific point in time
-- **Purpose**: Track changes, enable version control, provide history
-- **Components**: Changed files + commit message + timestamp + author
+• Definition: A snapshot of your project at a specific point in time
+• Purpose: Track changes, enable version control, provide history
+• Components: Changed files + commit message + timestamp + author
 
 ### Commit Message Best Practices
 
@@ -131,45 +140,45 @@ Optional detailed description explaining:
 ```
 
 #### Good Commit Messages
-- "Add user authentication system"
-- "Fix navbar responsive design issue"
-- "Update README with installation instructions"
-- "Refactor database connection logic"
+• "Add user authentication system"
+• "Fix navbar responsive design issue"
+• "Update README with installation instructions"
+• "Refactor database connection logic"
 
 #### Poor Commit Messages
-- "Update"
-- "Fix stuff"
-- "Changes"
-- "asdf"
+• "Update"
+• "Fix stuff"
+• "Changes"
+• "asdf"
 
 ### Committing Process
 
 #### When Editing Files
-1. **Make your changes**: Edit file content as needed
-2. **Scroll to bottom**: Find the "Commit changes" section
-3. **Add commit title**: Write descriptive title (required)
-4. **Add description**: Provide additional context (optional)
-5. **Choose commit option**:
-   - **Commit directly to main**: For simple changes
-   - **Create new branch**: For features/experiments
-6. **Click "Commit changes"**: Save your changes
+1. Make your changes: Edit file content as needed
+2. Scroll to bottom: Find the "Commit changes" section
+3. Add commit title: Write descriptive title (required)
+4. Add description: Provide additional context (optional)
+5. Choose commit option:
+   ◦ Commit directly to main: For simple changes
+   ◦ Create new branch: For features/experiments
+6. Click "Commit changes": Save your changes
 
 #### Direct to Main Branch
-- Use for: Bug fixes, documentation updates, small improvements
-- Effect: Changes appear immediately in main codebase
-- Consideration: Ensure changes don't break existing functionality
+• Use for: Bug fixes, documentation updates, small improvements
+• Effect: Changes appear immediately in main codebase
+• Consideration: Ensure changes don't break existing functionality
 
 #### Create New Branch
-- Use for: New features, experimental changes, collaborative work
-- Effect: Creates isolated copy for development
-- Benefit: Can be reviewed and merged later
+• Use for: New features, experimental changes, collaborative work
+• Effect: Creates isolated copy for development
+• Benefit: Can be reviewed and merged later
 
 ## Best Practices
 
 ### Repository Organization
-1. **Clear README**: Always maintain comprehensive documentation
-2. **Organized structure**: Use logical folder hierarchy
-3. **Descriptive names**: Files and folders should explain their purpose
+1. Clear README: Always maintain comprehensive documentation
+2. Organized structure: Use logical folder hierarchy
+3. Descriptive names: Files and folders should explain their purpose
 4. **Regular commits**: Small, frequent commits are better than large ones
 
 ### Commit Practices
@@ -218,4 +227,5 @@ This guide demonstrated the complete process of:
 
 **Repository URL**: https://github.com/YatharthChauhan2362/yatrirepo  
 **Created**: August 20, 2025  
-**Author**: YatharthChauhan2362
+**Author**: YatharthChauhan2362  
+**Updated**: August 21, 2025
