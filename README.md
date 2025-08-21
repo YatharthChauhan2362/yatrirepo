@@ -228,4 +228,5 @@ This guide demonstrated the complete process of:
 **Repository URL**: https://github.com/YatharthChauhan2362/yatrirepo  
 **Created**: August 20, 2025  
 **Author**: YatharthChauhan2362  
-**Updated**: August 21, 2025
+**Updated**: August 21, 2025  
+**Version**: 1.1
